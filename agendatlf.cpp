@@ -17,7 +17,7 @@ int main(){
  //voy a hacerlo bilingue
  cout<<"English - 1    Espanol - 2:    "<<endl;
  cin>>z;
-        if(z=2){{
+        if(z=2){
             cout<<" ==>  Cuantos amigos tienes?:    "<<endl;
             cin>>y;
             datos amigo[y];
@@ -44,7 +44,7 @@ int main(){
                           file<<"  - Nombre:   "<<amigo[x].nombre<<endl;
                           file<<"  - Telefono:     "<<amigo[x].telefono<<endl;
                           file<<"  - E-mail:   "<<amigo[x].email<<endl;
-                          file<<"  - Cumpleaños:   "<<amigo[x].dia<<"/"<<amigo[x].mes<<"/"<<amigo[x].ano<<endl;
+                          file<<"  - CumpleaÃ±os:   "<<amigo[x].dia<<"/"<<amigo[x].mes<<"/"<<amigo[x].ano<<endl;
                           }
                           file.close();
 
@@ -80,6 +80,6 @@ return 0;
 }   
                      file.close();
 
-}}
+}
 return 0;
 }
