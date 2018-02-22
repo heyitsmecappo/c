@@ -17,7 +17,7 @@ int main(){
  //voy a hacerlo bilingue
  cout<<"English - 1    Espanol - 2:    "<<endl;
  cin>>z;
-        if(z=2){
+        if(z==2){
             cout<<" ==>  Cuantos amigos tienes?:    "<<endl;
             cin>>y;
             datos amigo[y];
@@ -50,7 +50,7 @@ int main(){
 
 return 0;
 }
-       if(z=1){ 
+       if(z==1){ 
                 cout<<"How many friends do you have?:    "<<endl;
                 cin>>y;
                 datos amigo[y];
